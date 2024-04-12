@@ -5,6 +5,10 @@ extern io_get_udec, io_print_udec
 ; char to/from EAX
 extern io_get_char, io_print_char
 ; address in EAX, length in EDX
+extern io_get_long, io_print_long
+; signed decimal long to/from EAX:EDX FOR DEBUG ONLY
+extern io_get_ulong, io_print_ulong
+; unsigned decimal long to/from EAX:EDX FOR DEBUG ONLY
 extern io_get_string
 ; address in EAX
 extern io_print_string
